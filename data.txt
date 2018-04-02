@@ -1,0 +1,1536 @@
+LOCUS       XP_009311342             279 aa            linear   INV 09-JUN-2015
+DEFINITION  kinase [Trypanosoma grayi].
+ACCESSION   XP_009311342
+VERSION     XP_009311342.1
+DBLINK      BioProject: PRJNA258390
+            BioSample: SAMN02726834
+DBSOURCE    REFSEQ: accession XM_009313067.1
+KEYWORDS    RefSeq.
+SOURCE      Trypanosoma grayi
+  ORGANISM  Trypanosoma grayi
+            Eukaryota; Euglenozoa; Kinetoplastida; Trypanosomatidae;
+            Trypanosoma.
+REFERENCE   1  (residues 1 to 279)
+  AUTHORS   Kelly,S., Ivens,A.C., Manna,P.T., Gibson,W. and Field,M.C.
+  TITLE     A draft genome for the African crocodilian trypanosome Trypanosoma
+            grayi
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 279)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2015) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (residues 1 to 279)
+  AUTHORS   Kelly,S., Ivens,A.C., Manna,P.T., Gibson,W. and Field,M.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-JUN-2014) University of Edinburgh, Kings Buildings,
+            Mayfield Rd, Edinburgh EH9 3JT, United Kingdom
+REFERENCE   4  (residues 1 to 279)
+  AUTHORS   Kelly,S., Ivens,A.C., Manna,P.T., Gibson,W. and Field,M.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-MAY-2014) University of Edinburgh, Kings Buildings,
+            Mayfield Rd, Edinburgh EH9 3JT, United Kingdom
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to KEG10437.
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..279
+                     /organism="Trypanosoma grayi"
+                     /strain="ANR4"
+                     /host="Crocodylus niloticus"
+                     /db_xref="taxon:71804"
+                     /country="Gambia"
+                     /collection_date="1990"
+                     /note="in vitro culture"
+     Protein         1..279
+                     /product="kinase"
+                     /calculated_mol_wt=31232
+     Region          6..273
+                     /region_name="STKc_MAPKKK"
+                     /note="Catalytic domain of the Serine/Threonine Kinase,
+                     Mitogen-Activated Protein Kinase Kinase Kinase; cd06606"
+                     /db_xref="CDD:270783"
+     Region          7..273
+                     /region_name="S_TKc"
+                     /note="Serine/Threonine protein kinases, catalytic domain;
+                     smart00220"
+                     /db_xref="CDD:214567"
+     Site            order(13..17,21,34,36,68,84..87,90..91,94,134,136..139,
+                     141,151..152,155,170..173,175,202,211)
+                     /site_type="active"
+                     /db_xref="CDD:270783"
+     Site            order(13..17,21,34,36,68,84..87,89..91,94,138..139,141,
+                     151..153)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:270783"
+     Site            order(16..17,134,136..138,155,170..173,175,202,211)
+                     /site_type="other"
+                     /note="polypeptide substrate binding site [polypeptide
+                     binding]"
+                     /db_xref="CDD:270783"
+     Site            order(151..160,170..175)
+                     /site_type="other"
+                     /note="activation loop (A-loop)"
+                     /db_xref="CDD:270783"
+     CDS             1..279
+                     /locus_tag="DQ04_03721100"
+                     /coded_by="XM_009313067.1:1..840"
+                     /inference="protein motif:Gene3D:1.10.510.10"
+                     /inference="protein motif:Gene3D:3.30.200.20"
+                     /inference="protein motif:PANTHER:PTHR24361"
+                     /inference="protein motif:ProSitePatterns:PS00107"
+                     /inference="protein motif:ProSitePatterns:PS00108"
+                     /inference="protein motif:ProSiteProfiles:PS50011"
+                     /inference="protein motif:SMART:SM00220"
+                     /inference="protein motif:SUPERFAMILY:SSF56112"
+                     /note="automatic annotation, product description inferred
+                     from BLASTP similarity;
+                     predicted domains; G3DSA:1.10.510.10:
+                     Transferase(Phosphotransferase) domain
+                     1|aa:120-278|eval:1.2E-48; G3DSA:3.30.200.20:
+                     Phosphorylase Kinase|aa: domain 1|eval:5-119; PTHR24361:
+                     mitogen-activated kinase kinase
+                     kinase|aa:5-279|eval:1.6E-88; PF00069: Protein kinase
+                     domain|aa:7-273|eval:2.8E-64; PS00107: Protein kinases
+                     ATP-binding region signature.|aa:13-36|eval:-; PS00108:
+                     Serine/Threonine protein kinases active-site
+                     signature.|aa:130-142|eval:-; PS50011: Protein kinase
+                     domain profile.|aa:7-273|eval:49.997; SM00220:
+                     Serine/Threonine protein kinases, catalytic
+                     domain|aa:7-273|eval:1.9E-85; SSF56112: Protein
+                     kinase-like (PK-like)|aa:4-274|eval:1.73E-82;
+                     75pc ID to kinase [Trypanosoma cruzi Dm28c|protein
+                     GI:557863078], bitscore:428;
+                     75pc ID to kinase, putative [Trypanosoma cruzi|protein
+                     GI:407844645], bitscore:427;
+                     74pc ID to kinase [Trypanosoma cruzi strain CL
+                     Brener|protein GI:71667852], bitscore:427;
+                     74pc ID to protein kinase domain [Trypanosoma cruzi strain
+                     CL Brener|protein GI:71660415], bitscore:426;
+                     73pc ID to kinase, putative [Trypanosoma cruzi
+                     marinkellei|protein GI:407405598], bitscore:418;
+                     36pc ID to HA-tagged protein kinase domain of putative
+                     mitogen-activated protein kinase kinase kinase [synthetic
+                     construct|protein GI:116643238], bitscore:200;
+                     38pc ID to protein kinase [Naegleria gruberi|protein
+                     GI:290983220], bitscore:203;
+                     36pc ID to hypothetical protein ARALYDRAFT_314880
+                     [Arabidopsis lyrata subsp. lyrata|protein GI:297848084],
+                     bitscore:201;
+                     36pc ID to NPK1-related protein kinase 2 [Arabidopsis
+                     thaliana|protein GI:145336768], bitscore:200;
+                     36pc ID to RecName: Full=Mitogen-activated protein kinase
+                     kinase kinase 2|protein E=1e-55, score=199], bitscore:;
+                     39pc ID to mitogen activated protein kinase kinase kinase
+                     3, mapkkk3, mekk3, putative [Ricinus communis|protein
+                     GI:255542626], bitscore:199;
+                     37pc ID to PREDICTED: mitogen-activated protein kinase
+                     kinase kinase 3-like [Glycine max|protein GI:356574394],
+                     bitscore:199;
+                     37pc ID to hypothetical protein SELMODRAFT_108118
+                     [Selaginella moellendorffii|protein GI:302793081],
+                     bitscore:190;
+                     38pc ID to PREDICTED: mitogen-activated protein kinase
+                     kinase kinase 3-like [Cucumis sativus|protein
+                     GI:449444789], bitscore:198;
+                     37pc ID to hypothetical protein CICLE_v10000482mg [Citrus
+                     clementina|protein GI:557535441], bitscore:197;
+                     38pc ID to PREDICTED: mitogen-activated protein kinase
+                     kinase kinase 3-like [Cucumis sativus|protein
+                     GI:449481062], bitscore:198"
+                     /db_xref="GeneID:20383344"
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR002290"
+                     /db_xref="InterPro:IPR008271"
+                     /db_xref="InterPro:IPR011009"
+                     /db_xref="InterPro:IPR017441"
+                     /db_xref="PFAM:PF00069"
+ORIGIN      
+        1 mnrgeryqrv srlgrggfgt vykcinletg qlvavkevrl aaepdgnsae elrsefells
+       61 rvehpniirl lghrvgrrha rlflewaagg slydmmkhig alssglqedl vrsyvqqila
+      121 alqclhehgi ihrdlkpqnv lvdhagvlrv tdfglsrlls deasvietvi agtprymape
+      181 tiragrfscg sdlwavgatm selltgrtpw shlqpphvqq mpsllhhisn hpdehpvipe
+      241 hisdaakefm mqcfrpepre rgtaasllqh tflkrekke
+//
+
+LOCUS       NP_001262722             250 aa            linear   INV 14-MAR-2017
+DEFINITION  deoxyribonucleoside kinase, isoform B [Drosophila melanogaster].
+ACCESSION   NP_001262722
+VERSION     NP_001262722.1
+DBLINK      BioProject: PRJNA164
+            BioSample: SAMN02803731
+DBSOURCE    REFSEQ: accession NM_001275793.1
+KEYWORDS    RefSeq.
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Holometabola; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (residues 1 to 250)
+  AUTHORS   Hoskins,R.A., Carlson,J.W., Kennedy,C., Acevedo,D., Evans-Holm,M.,
+            Frise,E., Wan,K.H., Park,S., Mendez-Lago,M., Rossi,F.,
+            Villasante,A., Dimitri,P., Karpen,G.H. and Celniker,S.E.
+  TITLE     Sequence finishing and mapping of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1625-1628 (2007)
+   PUBMED   17569867
+REFERENCE   2  (residues 1 to 250)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  TITLE     The Release 5.1 annotation of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1586-1591 (2007)
+   PUBMED   17569856
+  REMARK    Erratum:[Science. 2007 Sep 7;317(5843):1325]
+REFERENCE   3  (residues 1 to 250)
+  AUTHORS   Quesneville,H., Bergman,C.M., Andrieu,O., Autard,D., Nouaud,D.,
+            Ashburner,M. and Anxolabehere,D.
+  TITLE     Combined evidence annotation of transposable elements in genome
+            sequences
+  JOURNAL   PLoS Comput. Biol. 1 (2), 166-175 (2005)
+   PUBMED   16110336
+REFERENCE   4  (residues 1 to 250)
+  AUTHORS   Hoskins,R.A., Smith,C.D., Carlson,J.W., Carvalho,A.B., Halpern,A.,
+            Kaminker,J.S., Kennedy,C., Mungall,C.J., Sullivan,B.A.,
+            Sutton,G.G., Yasuhara,J.C., Wakimoto,B.T., Myers,E.W.,
+            Celniker,S.E., Rubin,G.M. and Karpen,G.H.
+  TITLE     Heterochromatic sequences in a Drosophila whole-genome shotgun
+            assembly
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0085 (2002)
+   PUBMED   12537574
+REFERENCE   5  (residues 1 to 250)
+  AUTHORS   Kaminker,J.S., Bergman,C.M., Kronmiller,B., Carlson,J.,
+            Svirskas,R., Patel,S., Frise,E., Wheeler,D.A., Lewis,S.E.,
+            Rubin,G.M., Ashburner,M. and Celniker,S.E.
+  TITLE     The transposable elements of the Drosophila melanogaster
+            euchromatin: a genomics perspective
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0084 (2002)
+   PUBMED   12537573
+REFERENCE   6  (residues 1 to 250)
+  AUTHORS   Misra,S., Crosby,M.A., Mungall,C.J., Matthews,B.B., Campbell,K.S.,
+            Hradecky,P., Huang,Y., Kaminker,J.S., Millburn,G.H., Prochnik,S.E.,
+            Smith,C.D., Tupy,J.L., Whitfied,E.J., Bayraktaroglu,L.,
+            Berman,B.P., Bettencourt,B.R., Celniker,S.E., de Grey,A.D.,
+            Drysdale,R.A., Harris,N.L., Richter,J., Russo,S., Schroeder,A.J.,
+            Shu,S.Q., Stapleton,M., Yamada,C., Ashburner,M., Gelbart,W.M.,
+            Rubin,G.M. and Lewis,S.E.
+  TITLE     Annotation of the Drosophila melanogaster euchromatic genome: a
+            systematic review
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0083 (2002)
+   PUBMED   12537572
+REFERENCE   7  (residues 1 to 250)
+  AUTHORS   Celniker,S.E., Wheeler,D.A., Kronmiller,B., Carlson,J.W.,
+            Halpern,A., Patel,S., Adams,M., Champe,M., Dugan,S.P., Frise,E.,
+            Hodgson,A., George,R.A., Hoskins,R.A., Laverty,T., Muzny,D.M.,
+            Nelson,C.R., Pacleb,J.M., Park,S., Pfeiffer,B.D., Richards,S.,
+            Sodergren,E.J., Svirskas,R., Tabor,P.E., Wan,K., Stapleton,M.,
+            Sutton,G.G., Venter,C., Weinstock,G., Scherer,S.E., Myers,E.W.,
+            Gibbs,R.A. and Rubin,G.M.
+  TITLE     Finishing a whole-genome shotgun: release 3 of the Drosophila
+            melanogaster euchromatic genome sequence
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0079 (2002)
+   PUBMED   12537568
+REFERENCE   8  (residues 1 to 250)
+  AUTHORS   Adams,M.D., Celniker,S.E., Holt,R.A., Evans,C.A., Gocayne,J.D.,
+            Amanatides,P.G., Scherer,S.E., Li,P.W., Hoskins,R.A., Galle,R.F.,
+            George,R.A., Lewis,S.E., Richards,S., Ashburner,M., Henderson,S.N.,
+            Sutton,G.G., Wortman,J.R., Yandell,M.D., Zhang,Q., Chen,L.X.,
+            Brandon,R.C., Rogers,Y.H., Blazej,R.G., Champe,M., Pfeiffer,B.D.,
+            Wan,K.H., Doyle,C., Baxter,E.G., Helt,G., Nelson,C.R., Gabor,G.L.,
+            Abril,J.F., Agbayani,A., An,H.J., Andrews-Pfannkoch,C., Baldwin,D.,
+            Ballew,R.M., Basu,A., Baxendale,J., Bayraktaroglu,L., Beasley,E.M.,
+            Beeson,K.Y., Benos,P.V., Berman,B.P., Bhandari,D., Bolshakov,S.,
+            Borkova,D., Botchan,M.R., Bouck,J., Brokstein,P., Brottier,P.,
+            Burtis,K.C., Busam,D.A., Butler,H., Cadieu,E., Center,A.,
+            Chandra,I., Cherry,J.M., Cawley,S., Dahlke,C., Davenport,L.B.,
+            Davies,P., de Pablos,B., Delcher,A., Deng,Z., Mays,A.D., Dew,I.,
+            Dietz,S.M., Dodson,K., Doup,L.E., Downes,M., Dugan-Rocha,S.,
+            Dunkov,B.C., Dunn,P., Durbin,K.J., Evangelista,C.C., Ferraz,C.,
+            Ferriera,S., Fleischmann,W., Fosler,C., Gabrielian,A.E., Garg,N.S.,
+            Gelbart,W.M., Glasser,K., Glodek,A., Gong,F., Gorrell,J.H., Gu,Z.,
+            Guan,P., Harris,M., Harris,N.L., Harvey,D., Heiman,T.J.,
+            Hernandez,J.R., Houck,J., Hostin,D., Houston,K.A., Howland,T.J.,
+            Wei,M.H., Ibegwam,C., Jalali,M., Kalush,F., Karpen,G.H., Ke,Z.,
+            Kennison,J.A., Ketchum,K.A., Kimmel,B.E., Kodira,C.D., Kraft,C.,
+            Kravitz,S., Kulp,D., Lai,Z., Lasko,P., Lei,Y., Levitsky,A.A.,
+            Li,J., Li,Z., Liang,Y., Lin,X., Liu,X., Mattei,B., McIntosh,T.C.,
+            McLeod,M.P., McPherson,D., Merkulov,G., Milshina,N.V., Mobarry,C.,
+            Morris,J., Moshrefi,A., Mount,S.M., Moy,M., Murphy,B., Murphy,L.,
+            Muzny,D.M., Nelson,D.L., Nelson,D.R., Nelson,K.A., Nixon,K.,
+            Nusskern,D.R., Pacleb,J.M., Palazzolo,M., Pittman,G.S., Pan,S.,
+            Pollard,J., Puri,V., Reese,M.G., Reinert,K., Remington,K.,
+            Saunders,R.D., Scheeler,F., Shen,H., Shue,B.C., Siden-Kiamos,I.,
+            Simpson,M., Skupski,M.P., Smith,T., Spier,E., Spradling,A.C.,
+            Stapleton,M., Strong,R., Sun,E., Svirskas,R., Tector,C., Turner,R.,
+            Venter,E., Wang,A.H., Wang,X., Wang,Z.Y., Wassarman,D.A.,
+            Weinstock,G.M., Weissenbach,J., Williams,S.M., WoodageT,
+            Worley,K.C., Wu,D., Yang,S., Yao,Q.A., Ye,J., Yeh,R.F.,
+            Zaveri,J.S., Zhan,M., Zhang,G., Zhao,Q., Zheng,L., Zheng,X.H.,
+            Zhong,F.N., Zhong,W., Zhou,X., Zhu,S., Zhu,X., Smith,H.O.,
+            Gibbs,R.A., Myers,E.W., Rubin,G.M. and Venter,J.C.
+  TITLE     The genome sequence of Drosophila melanogaster
+  JOURNAL   Science 287 (5461), 2185-2195 (2000)
+   PUBMED   10731132
+REFERENCE   9  (residues 1 to 250)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Pfeiffer,B., Frise,E., George,R.,
+            Hoskins,R., Stapleton,M., Pacleb,J., Park,S., Svirskas,R.,
+            Smith,E., Yu,C. and Rubin,G.
+  CONSRTM   Berkeley Drosophila Genome Project
+  TITLE     Drosophila melanogaster release 4 sequence
+  JOURNAL   Unpublished
+REFERENCE   10 (residues 1 to 250)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   11 (residues 1 to 250)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2016) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   12 (residues 1 to 250)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2015) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   13 (residues 1 to 250)
+  AUTHORS   Celniker,S., Carlson,J., Kennedy,C., Wan,K., Frise,E., Hoskins,R.,
+            Park,S., Svirskas,R. and Karpen,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One #Cyclotron RoadOne
+            Cyclotron Road, MS 64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   14 (residues 1 to 250)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Frise,E., Hoskins,R., Park,S.,
+            Svirskas,R. and Rubin,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One Cyclotron Road, MS
+            64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   15 (residues 1 to 250)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  CONSRTM   Drosophila Heterochromatin Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2006) Drosophila Heterochromatin Genome Project,
+            Ernest Orlando Lawrence Berkeley National Laboratory, 1 Cyclotron
+            Road, Mailstop 64-121, Berkeley, CA 94720, USA
+REFERENCE   16 (residues 1 to 250)
+  AUTHORS   Adams,M.D., Celniker,S.E., Gibbs,R.A., Rubin,G.M. and Venter,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAR-2000) Celera Genomics, 45 West Gude Drive,
+            Rockville, MD 20850, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by FlyBase. The
+            reference sequence is identical to AGB96102.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: FlyBase
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Release 6.13
+            URL                 :: http://flybase.org
+            ##Genome-Annotation-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Drosophila melanogaster"
+                     /db_xref="taxon:7227"
+                     /chromosome="3R"
+                     /genotype="y[1]; Gr22b[1] Gr22d[1] cn[1] CG33964[R4.2]
+                     bw[1] sp[1]; LysC[1] MstProx[1] GstD5[1] Rh6[1]"
+     Protein         1..250
+                     /product="deoxyribonucleoside kinase, isoform B"
+                     /EC_number="2.7.1.145"
+                     /EC_number="2.7.1.21"
+                     /name="CG5452 gene product from transcript CG5452-RB"
+                     /note="CG5452-PB; dnk-PB; 2'-deoxynucleoside kinase;
+                     deoxyribonucleoside"
+                     /calculated_mol_wt=28957
+     Region          23..214
+                     /region_name="dNK"
+                     /note="Deoxyribonucleoside kinase (dNK) catalyzes the
+                     phosphorylation of deoxyribonucleosides to yield
+                     corresponding monophosphates (dNMPs). This family consists
+                     of various deoxynucleoside kinases including deoxyribo-
+                     cytidine (EC 2.7.1.74), guanosine (EC 2.7.1; cd01673"
+                     /db_xref="CDD:238836"
+     Region          23..214
+                     /region_name="DTMP_kinase"
+                     /note="dTMP kinase; TIGR00041"
+                     /db_xref="CDD:161676"
+     Site            order(31,33..34,70,80..81,114,167,172)
+                     /site_type="other"
+                     /note="Substrate-binding site [chemical binding]"
+                     /db_xref="CDD:238836"
+     Site            88
+                     /site_type="other"
+                     /note="Substrate specificity [chemical binding]"
+                     /db_xref="CDD:238836"
+     CDS             1..250
+                     /gene="dnk"
+                     /locus_tag="Dmel_CG5452"
+                     /gene_synonym="CG5452; Dm-dNK; DM-dNK; DmdNK; Dmel\CG5452;
+                     dNK; DNK"
+                     /coded_by="NM_001275793.1:221..973"
+                     /db_xref="FLYBASE:FBpp0302815"
+                     /db_xref="GeneID:42273"
+                     /db_xref="FLYBASE:FBgn0022338"
+ORIGIN      
+        1 maeaascark gtkyaegtqp ftvliegnig sgkttylnhf ekykndicll tepvekwrnv
+       61 ngvnllelmy kdpkkwampf qsyvtltmlq shtaptnkkl kimersifsa rycfvenmrr
+      121 ngsleqgmyn tleewykfie esihvqadli iylrtspeva yerirqrars eescvplkyl
+      181 qelhelhedw lihqrrpqsc kvlvldadln lenigteyqr sessifdais snqqpspvlv
+      241 spskrqrvar
+//
+
+LOCUS       NP_524399                250 aa            linear   INV 14-MAR-2017
+DEFINITION  deoxyribonucleoside kinase, isoform A [Drosophila melanogaster].
+ACCESSION   NP_524399
+VERSION     NP_524399.1
+DBLINK      BioProject: PRJNA164
+            BioSample: SAMN02803731
+DBSOURCE    REFSEQ: accession NM_079675.3
+KEYWORDS    RefSeq.
+SOURCE      Drosophila melanogaster (fruit fly)
+  ORGANISM  Drosophila melanogaster
+            Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+            Pterygota; Neoptera; Holometabola; Diptera; Brachycera;
+            Muscomorpha; Ephydroidea; Drosophilidae; Drosophila; Sophophora.
+REFERENCE   1  (residues 1 to 250)
+  AUTHORS   Hoskins,R.A., Carlson,J.W., Kennedy,C., Acevedo,D., Evans-Holm,M.,
+            Frise,E., Wan,K.H., Park,S., Mendez-Lago,M., Rossi,F.,
+            Villasante,A., Dimitri,P., Karpen,G.H. and Celniker,S.E.
+  TITLE     Sequence finishing and mapping of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1625-1628 (2007)
+   PUBMED   17569867
+REFERENCE   2  (residues 1 to 250)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  TITLE     The Release 5.1 annotation of Drosophila melanogaster
+            heterochromatin
+  JOURNAL   Science 316 (5831), 1586-1591 (2007)
+   PUBMED   17569856
+  REMARK    Erratum:[Science. 2007 Sep 7;317(5843):1325]
+REFERENCE   3  (residues 1 to 250)
+  AUTHORS   Quesneville,H., Bergman,C.M., Andrieu,O., Autard,D., Nouaud,D.,
+            Ashburner,M. and Anxolabehere,D.
+  TITLE     Combined evidence annotation of transposable elements in genome
+            sequences
+  JOURNAL   PLoS Comput. Biol. 1 (2), 166-175 (2005)
+   PUBMED   16110336
+REFERENCE   4  (residues 1 to 250)
+  AUTHORS   Hoskins,R.A., Smith,C.D., Carlson,J.W., Carvalho,A.B., Halpern,A.,
+            Kaminker,J.S., Kennedy,C., Mungall,C.J., Sullivan,B.A.,
+            Sutton,G.G., Yasuhara,J.C., Wakimoto,B.T., Myers,E.W.,
+            Celniker,S.E., Rubin,G.M. and Karpen,G.H.
+  TITLE     Heterochromatic sequences in a Drosophila whole-genome shotgun
+            assembly
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0085 (2002)
+   PUBMED   12537574
+REFERENCE   5  (residues 1 to 250)
+  AUTHORS   Kaminker,J.S., Bergman,C.M., Kronmiller,B., Carlson,J.,
+            Svirskas,R., Patel,S., Frise,E., Wheeler,D.A., Lewis,S.E.,
+            Rubin,G.M., Ashburner,M. and Celniker,S.E.
+  TITLE     The transposable elements of the Drosophila melanogaster
+            euchromatin: a genomics perspective
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0084 (2002)
+   PUBMED   12537573
+REFERENCE   6  (residues 1 to 250)
+  AUTHORS   Misra,S., Crosby,M.A., Mungall,C.J., Matthews,B.B., Campbell,K.S.,
+            Hradecky,P., Huang,Y., Kaminker,J.S., Millburn,G.H., Prochnik,S.E.,
+            Smith,C.D., Tupy,J.L., Whitfied,E.J., Bayraktaroglu,L.,
+            Berman,B.P., Bettencourt,B.R., Celniker,S.E., de Grey,A.D.,
+            Drysdale,R.A., Harris,N.L., Richter,J., Russo,S., Schroeder,A.J.,
+            Shu,S.Q., Stapleton,M., Yamada,C., Ashburner,M., Gelbart,W.M.,
+            Rubin,G.M. and Lewis,S.E.
+  TITLE     Annotation of the Drosophila melanogaster euchromatic genome: a
+            systematic review
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0083 (2002)
+   PUBMED   12537572
+REFERENCE   7  (residues 1 to 250)
+  AUTHORS   Celniker,S.E., Wheeler,D.A., Kronmiller,B., Carlson,J.W.,
+            Halpern,A., Patel,S., Adams,M., Champe,M., Dugan,S.P., Frise,E.,
+            Hodgson,A., George,R.A., Hoskins,R.A., Laverty,T., Muzny,D.M.,
+            Nelson,C.R., Pacleb,J.M., Park,S., Pfeiffer,B.D., Richards,S.,
+            Sodergren,E.J., Svirskas,R., Tabor,P.E., Wan,K., Stapleton,M.,
+            Sutton,G.G., Venter,C., Weinstock,G., Scherer,S.E., Myers,E.W.,
+            Gibbs,R.A. and Rubin,G.M.
+  TITLE     Finishing a whole-genome shotgun: release 3 of the Drosophila
+            melanogaster euchromatic genome sequence
+  JOURNAL   Genome Biol. 3 (12), RESEARCH0079 (2002)
+   PUBMED   12537568
+REFERENCE   8  (residues 1 to 250)
+  AUTHORS   Adams,M.D., Celniker,S.E., Holt,R.A., Evans,C.A., Gocayne,J.D.,
+            Amanatides,P.G., Scherer,S.E., Li,P.W., Hoskins,R.A., Galle,R.F.,
+            George,R.A., Lewis,S.E., Richards,S., Ashburner,M., Henderson,S.N.,
+            Sutton,G.G., Wortman,J.R., Yandell,M.D., Zhang,Q., Chen,L.X.,
+            Brandon,R.C., Rogers,Y.H., Blazej,R.G., Champe,M., Pfeiffer,B.D.,
+            Wan,K.H., Doyle,C., Baxter,E.G., Helt,G., Nelson,C.R., Gabor,G.L.,
+            Abril,J.F., Agbayani,A., An,H.J., Andrews-Pfannkoch,C., Baldwin,D.,
+            Ballew,R.M., Basu,A., Baxendale,J., Bayraktaroglu,L., Beasley,E.M.,
+            Beeson,K.Y., Benos,P.V., Berman,B.P., Bhandari,D., Bolshakov,S.,
+            Borkova,D., Botchan,M.R., Bouck,J., Brokstein,P., Brottier,P.,
+            Burtis,K.C., Busam,D.A., Butler,H., Cadieu,E., Center,A.,
+            Chandra,I., Cherry,J.M., Cawley,S., Dahlke,C., Davenport,L.B.,
+            Davies,P., de Pablos,B., Delcher,A., Deng,Z., Mays,A.D., Dew,I.,
+            Dietz,S.M., Dodson,K., Doup,L.E., Downes,M., Dugan-Rocha,S.,
+            Dunkov,B.C., Dunn,P., Durbin,K.J., Evangelista,C.C., Ferraz,C.,
+            Ferriera,S., Fleischmann,W., Fosler,C., Gabrielian,A.E., Garg,N.S.,
+            Gelbart,W.M., Glasser,K., Glodek,A., Gong,F., Gorrell,J.H., Gu,Z.,
+            Guan,P., Harris,M., Harris,N.L., Harvey,D., Heiman,T.J.,
+            Hernandez,J.R., Houck,J., Hostin,D., Houston,K.A., Howland,T.J.,
+            Wei,M.H., Ibegwam,C., Jalali,M., Kalush,F., Karpen,G.H., Ke,Z.,
+            Kennison,J.A., Ketchum,K.A., Kimmel,B.E., Kodira,C.D., Kraft,C.,
+            Kravitz,S., Kulp,D., Lai,Z., Lasko,P., Lei,Y., Levitsky,A.A.,
+            Li,J., Li,Z., Liang,Y., Lin,X., Liu,X., Mattei,B., McIntosh,T.C.,
+            McLeod,M.P., McPherson,D., Merkulov,G., Milshina,N.V., Mobarry,C.,
+            Morris,J., Moshrefi,A., Mount,S.M., Moy,M., Murphy,B., Murphy,L.,
+            Muzny,D.M., Nelson,D.L., Nelson,D.R., Nelson,K.A., Nixon,K.,
+            Nusskern,D.R., Pacleb,J.M., Palazzolo,M., Pittman,G.S., Pan,S.,
+            Pollard,J., Puri,V., Reese,M.G., Reinert,K., Remington,K.,
+            Saunders,R.D., Scheeler,F., Shen,H., Shue,B.C., Siden-Kiamos,I.,
+            Simpson,M., Skupski,M.P., Smith,T., Spier,E., Spradling,A.C.,
+            Stapleton,M., Strong,R., Sun,E., Svirskas,R., Tector,C., Turner,R.,
+            Venter,E., Wang,A.H., Wang,X., Wang,Z.Y., Wassarman,D.A.,
+            Weinstock,G.M., Weissenbach,J., Williams,S.M., WoodageT,
+            Worley,K.C., Wu,D., Yang,S., Yao,Q.A., Ye,J., Yeh,R.F.,
+            Zaveri,J.S., Zhan,M., Zhang,G., Zhao,Q., Zheng,L., Zheng,X.H.,
+            Zhong,F.N., Zhong,W., Zhou,X., Zhu,S., Zhu,X., Smith,H.O.,
+            Gibbs,R.A., Myers,E.W., Rubin,G.M. and Venter,J.C.
+  TITLE     The genome sequence of Drosophila melanogaster
+  JOURNAL   Science 287 (5461), 2185-2195 (2000)
+   PUBMED   10731132
+REFERENCE   9  (residues 1 to 250)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Pfeiffer,B., Frise,E., George,R.,
+            Hoskins,R., Stapleton,M., Pacleb,J., Park,S., Svirskas,R.,
+            Smith,E., Yu,C. and Rubin,G.
+  CONSRTM   Berkeley Drosophila Genome Project
+  TITLE     Drosophila melanogaster release 4 sequence
+  JOURNAL   Unpublished
+REFERENCE   10 (residues 1 to 250)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAR-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   11 (residues 1 to 250)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2016) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   12 (residues 1 to 250)
+  CONSRTM   FlyBase
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-OCT-2015) FlyBase, Harvard University, Biological
+            Laboratories, 16 Divinity Ave, Cambridge, MA 02138, USA
+REFERENCE   13 (residues 1 to 250)
+  AUTHORS   Celniker,S., Carlson,J., Kennedy,C., Wan,K., Frise,E., Hoskins,R.,
+            Park,S., Svirskas,R. and Karpen,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One #Cyclotron RoadOne
+            Cyclotron Road, MS 64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   14 (residues 1 to 250)
+  AUTHORS   Celniker,S., Carlson,J., Wan,K., Frise,E., Hoskins,R., Park,S.,
+            Svirskas,R. and Rubin,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-AUG-2006) Berkeley Drosophila Genome Project,
+            Lawrence Berkeley National Laboratory, One Cyclotron Road, MS
+            64-121, Berkeley, CA 94720, USA
+  REMARK    Direct Submission
+REFERENCE   15 (residues 1 to 250)
+  AUTHORS   Smith,C.D., Shu,S., Mungall,C.J. and Karpen,G.H.
+  CONSRTM   Drosophila Heterochromatin Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-AUG-2006) Drosophila Heterochromatin Genome Project,
+            Ernest Orlando Lawrence Berkeley National Laboratory, 1 Cyclotron
+            Road, Mailstop 64-121, Berkeley, CA 94720, USA
+REFERENCE   16 (residues 1 to 250)
+  AUTHORS   Adams,M.D., Celniker,S.E., Gibbs,R.A., Rubin,G.M. and Venter,C.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAR-2000) Celera Genomics, 45 West Gude Drive,
+            Rockville, MD 20850, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by FlyBase. The
+            reference sequence is identical to AAF55615.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: FlyBase
+            Annotation Status   :: Full annotation
+            Annotation Version  :: Release 6.13
+            URL                 :: http://flybase.org
+            ##Genome-Annotation-Data-END##
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..250
+                     /organism="Drosophila melanogaster"
+                     /db_xref="taxon:7227"
+                     /chromosome="3R"
+                     /genotype="y[1]; Gr22b[1] Gr22d[1] cn[1] CG33964[R4.2]
+                     bw[1] sp[1]; LysC[1] MstProx[1] GstD5[1] Rh6[1]"
+     Protein         1..250
+                     /product="deoxyribonucleoside kinase, isoform A"
+                     /EC_number="2.7.1.145"
+                     /EC_number="2.7.1.21"
+                     /name="CG5452 gene product from transcript CG5452-RA"
+                     /note="CG5452-PA; dnk-PA; 2'-deoxynucleoside kinase;
+                     deoxyribonucleoside"
+                     /calculated_mol_wt=28957
+     Region          23..214
+                     /region_name="dNK"
+                     /note="Deoxyribonucleoside kinase (dNK) catalyzes the
+                     phosphorylation of deoxyribonucleosides to yield
+                     corresponding monophosphates (dNMPs). This family consists
+                     of various deoxynucleoside kinases including deoxyribo-
+                     cytidine (EC 2.7.1.74), guanosine (EC 2.7.1; cd01673"
+                     /db_xref="CDD:238836"
+     Region          23..214
+                     /region_name="DTMP_kinase"
+                     /note="dTMP kinase; TIGR00041"
+                     /db_xref="CDD:161676"
+     Site            order(31,33..34,70,80..81,114,167,172)
+                     /site_type="other"
+                     /note="Substrate-binding site [chemical binding]"
+                     /db_xref="CDD:238836"
+     Site            88
+                     /site_type="other"
+                     /note="Substrate specificity [chemical binding]"
+                     /db_xref="CDD:238836"
+     CDS             1..250
+                     /gene="dnk"
+                     /locus_tag="Dmel_CG5452"
+                     /gene_synonym="CG5452; Dm-dNK; DM-dNK; DmdNK; Dmel\CG5452;
+                     dNK; DNK"
+                     /coded_by="NM_079675.3:149..901"
+                     /db_xref="FLYBASE:FBpp0083121"
+                     /db_xref="GeneID:42273"
+                     /db_xref="FLYBASE:FBgn0022338"
+ORIGIN      
+        1 maeaascark gtkyaegtqp ftvliegnig sgkttylnhf ekykndicll tepvekwrnv
+       61 ngvnllelmy kdpkkwampf qsyvtltmlq shtaptnkkl kimersifsa rycfvenmrr
+      121 ngsleqgmyn tleewykfie esihvqadli iylrtspeva yerirqrars eescvplkyl
+      181 qelhelhedw lihqrrpqsc kvlvldadln lenigteyqr sessifdais snqqpspvlv
+      241 spskrqrvar
+//
+
+LOCUS       NP_626897                305 aa            linear   CON 03-AUG-2016
+DEFINITION  kinase [Streptomyces coelicolor A3(2)].
+ACCESSION   NP_626897
+VERSION     NP_626897.1
+DBLINK      BioProject: PRJNA57801
+            Assembly: GCF_000203835.1
+DBSOURCE    REFSEQ: accession NC_003888.3
+KEYWORDS    RefSeq; complete genome.
+SOURCE      Streptomyces coelicolor A3(2)
+  ORGANISM  Streptomyces coelicolor A3(2)
+            Bacteria; Actinobacteria; Streptomycetales; Streptomycetaceae;
+            Streptomyces; Streptomyces albidoflavus group.
+REFERENCE   1  (residues 1 to 305)
+  AUTHORS   Hsiao,N.H. and Kirby,R.
+  TITLE     Comparative genomics of Streptomyces avermitilis, Streptomyces
+            cattleya, Streptomyces maritimus and Kitasatospora aureofaciens
+            using a Streptomyces coelicolor microarray system
+  JOURNAL   Antonie Van Leeuwenhoek 93 (1-2), 1-25 (2008)
+   PUBMED   17588127
+REFERENCE   2  (residues 1 to 305)
+  AUTHORS   Bentley,S.D., Chater,K.F., Cerdeno-Tarraga,A.M., Challis,G.L.,
+            Thomson,N.R., James,K.D., Harris,D.E., Quail,M.A., Kieser,H.,
+            Harper,D., Bateman,A., Brown,S., Chandra,G., Chen,C.W., Collins,M.,
+            Cronin,A., Fraser,A., Goble,A., Hidalgo,J., Hornsby,T., Howarth,S.,
+            Huang,C.H., Kieser,T., Larke,L., Murphy,L., Oliver,K., O'Neil,S.,
+            Rabbinowitsch,E., Rajandream,M.A., Rutherford,K., Rutter,S.,
+            Seeger,K., Saunders,D., Sharp,S., Squares,R., Squares,S.,
+            Taylor,K., Warren,T., Wietzorrek,A., Woodward,J., Barrell,B.G.,
+            Parkhill,J. and Hopwood,D.A.
+  TITLE     Complete genome sequence of the model actinomycete Streptomyces
+            coelicolor A3(2)
+  JOURNAL   Nature 417 (6885), 141-147 (2002)
+   PUBMED   12000953
+REFERENCE   3  (residues 1 to 305)
+  AUTHORS   Redenbach,M., Kieser,H.M., Denapaite,D., Eichner,A., Cullum,J.,
+            Kinashi,H. and Hopwood,D.A.
+  TITLE     A set of ordered cosmids and a detailed genetic and physical map
+            for the 8 Mb Streptomyces coelicolor A3(2) chromosome
+  JOURNAL   Mol. Microbiol. 21 (1), 77-96 (1996)
+   PUBMED   8843436
+REFERENCE   4  (residues 1 to 305)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (28-MAY-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+  REMARK    Direct Submission
+REFERENCE   5  (residues 1 to 305)
+  AUTHORS   Bentley,S.D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-MAY-2002) Sanger Institute, Wellcome Trust Genome
+            Campus, Hinxton, Cambridge CB10 1SA, United Kingdom
+  REMARK    Direct Submission
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from CAB71200.
+            RefSeq Category: Reference Genome
+                        MOD: Model Organism
+                        UPR: UniProt Genome
+            Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..305
+                     /organism="Streptomyces coelicolor A3(2)"
+                     /serovar="A3(2)"
+                     /db_xref="taxon:100226"
+     Protein         1..305
+                     /product="kinase"
+                     /calculated_mol_wt=31399
+     Region          1..294
+                     /region_name="NagC"
+                     /note="Sugar kinase of the NBD/HSP70 family, may contain
+                     an N-terminal HTH domain [Transcription, Carbohydrate
+                     transport and metabolism]; COG1940"
+                     /db_xref="CDD:224851"
+     Region          1..286
+                     /region_name="NBD_sugar-kinase_HSP70_actin"
+                     /note="Nucleotide-Binding Domain of the sugar
+                     kinase/HSP70/actin superfamily; cl17037"
+                     /db_xref="CDD:302596"
+     CDS             1..305
+                     /locus_tag="SCO2662"
+                     /gene_synonym="SC6D10.05"
+                     /coded_by="NC_003888.3:2894115..2895032"
+                     /note="SC6D10.05, possible kinase, len: 305 aa; similar to
+                     TR:CAB61848 (EMBL:AJ242910) Homo sapiens
+                     N-acetylglucosamine kinase (EC 2.7.1.59), 344 aa; fasta
+                     scores: opt: 192 z-score: 223.6 E(): 4.8e-05; 24.5%
+                     identity in 253 aa overlap and to TR:CAB61849
+                     (EMBL:AJ242909) Mus musculus N-acetylglucosamine kinase
+                     (EC 2.7.1.59), 343 aa; fasta scores: opt: 180 z-score:
+                     210.1 E(): 0.00027; 24.4% identity in 250 aa overlap"
+                     /transl_table=11
+                     /db_xref="GeneID:1098096"
+CONTIG      join(WP_011028493.1:1..305)
+ORIGIN      
+        1 mavvaadgev latarggafr ppavgverav daladavtra faaagvtavg hvsaclanad
+       61 lpveeeqlaa alharawggs vevrndtfal lragvdeplg vavvcgagvn cvgmrpdgrt
+      121 arfpaigris gdwgggwgla eealwyaara edgrgeptel artlpahfgl dsmyalieal
+      181 hlrrvepvrr heltpvlfat aaggdplars vvdrqadevv amatvaltrl dllaepapvv
+      241 lggsvlaarh pqldqrirel laarapkavp rvvaarpvlg avllgldhvg aapgagerar
+      301 ehfta
+//
+
+LOCUS       WP_062741548             364 aa            linear   BCT 29-MAR-2016
+DEFINITION  kinase [[Enterobacter] lignolyticus].
+ACCESSION   WP_062741548
+VERSION     WP_062741548.1
+KEYWORDS    RefSeq.
+SOURCE      [Enterobacter] lignolyticus
+  ORGANISM  [Enterobacter] lignolyticus
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Pluralibacter.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+FEATURES             Location/Qualifiers
+     source          1..364
+                     /organism="[Enterobacter] lignolyticus"
+                     /db_xref="taxon:1334193"
+     Protein         1..364
+                     /product="kinase"
+                     /calculated_mol_wt=39829
+     Region          1..364
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          3..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..333
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,308,311)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mndrekriln ilrrnpliqq heiadilqis rsrvaahimd lmrkgaikgk gyilteqeyc
+       61 valgainmdi rgmadihypq pasnpgnilc spggvarnia hnlaqlgrdv hlisavgsdf
+      121 ygetlleqtr qagvnvqsci rlhgqntaty lsianpqeet vlaindthil ssltpqllnq
+      181 srdllahagv vlvdcnlteq alewvftqaq ahaapvfvdt vsefkahkir pwlsrihtlk
+      241 ptrqelqilw gqpvvseedr laavqwlher gtqrvvvcld ddavfcsdis gehfqltppd
+      301 htavdsfgad dalmagllyg ylegndfaes arfamacaai arasdsinnp slsvenaqal
+      361 lpva
+//
+
+LOCUS       WP_063081208             362 aa            linear   BCT 13-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_063081208
+VERSION     WP_063081208.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39615
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkdrikgk gyilteqeyc
+       61 vvvgtinmei rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll dqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmagliysfl egnnfrdsar famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_054495724             362 aa            linear   BCT 13-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_054495724
+VERSION     WP_054495724.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39495
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll dqltpqllng
+      181 srdllrhagv vladcnltae alewvltlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egnnfrdsar famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_053919956             362 aa            linear   BCT 13-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_053919956
+VERSION     WP_053919956.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39967
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          3..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mndrekqilk ilrrnpliqq neiadilqis rsrvaahimd lmrkglikgk gyilteqdyc
+       61 vvvgainmdi rgmadirypq aashpgsvhc saggvgrnia hnlallgrdv hlisaigndf
+      121 ygetlleetr ragvnvsnci rlhghstaty laiankqeet ilaindthil qqltpqllnt
+      181 srdlirhagv vladcnltpe alewvftiad eipmfvdtvs efkankvknw ysrihtlkpt
+      241 qneleilwgq pikddndrir avnslhqqgv krifvylkde svfcsdkdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egysfrnsar favacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_032358665             362 aa            linear   BCT 12-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032358665
+VERSION     WP_032358665.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39603
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egnnfrdsar famayaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_032352352             362 aa            linear   BCT 12-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032352352
+VERSION     WP_032352352.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39587
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll dqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmagliysfl egnnfrdsdr famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_048972032             362 aa            linear   BCT 11-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_048972032
+VERSION     WP_048972032.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39604
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeifa ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqi vlaindthll dqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrnt avnalhqqgv qqlfvylpde svycseknge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egnnfrdsar famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_042277283             364 aa            linear   BCT 12-JAN-2018
+DEFINITION  kinase [[Clostridium] dakarense].
+ACCESSION   WP_042277283
+VERSION     WP_042277283.1
+KEYWORDS    RefSeq.
+SOURCE      [Clostridium] dakarense
+  ORGANISM  [Clostridium] dakarense
+            Bacteria; Firmicutes; Clostridia; Clostridiales;
+            Peptostreptococcaceae; Romboutsia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..364
+                     /organism="[Clostridium] dakarense"
+                     /db_xref="taxon:1301100"
+     Protein         1..364
+                     /product="kinase"
+                     /calculated_mol_wt=40110
+     Region          1..359
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          3..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..341
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,305,308)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,303,306..307,310,332,335)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mtdrekeild ilkenpmisq qeladllnit rsstavhitn lmkkgyikgk gyilkknnyi
+       61 tviggsnidi qgvpnrklvm hdsnpgkvdi slggvgrnia dnicrlgvst klisavgndl
+      121 ygnqilseck sygidvedfy isnehstsiy vsvlndandm qiaishmdil dkldlsyiss
+      181 khqqisdsla ivldtnlsye vinyitstys hipifvdtvs tskcmkikdi vgrfntikln
+      241 kyeaealsgi qinnmddiks cskyflnegv envfitlgkd gvycednshn iyvdgvktei
+      301 vsatgagdaf iaglvyshln nfdieysakf smaasiials hentinpnms vdnvekilke
+      361 milc
+//
+
+LOCUS       WP_032289749             362 aa            linear   BCT 11-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032289749
+VERSION     WP_032289749.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39557
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq sashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrnt avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egnnfrdsar favacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_032282763             362 aa            linear   BCT 12-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032282763
+VERSION     WP_032282763.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39491
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglgysfl egysfrdsar favacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_032207150             362 aa            linear   BCT 11-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032207150
+VERSION     WP_032207150.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39637
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq sashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrnt avnalhqqgv qqlfvylpde svycsekdge qflltepaht
+      301 tvdsfgaddg fmaglvysfl egysfrdsar favacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_032286873             362 aa            linear   BCT 10-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032286873
+VERSION     WP_032286873.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39531
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrnt avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglgysfl egnnfrdsar famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_032206286             362 aa            linear   BCT 11-JAN-2018
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_032206286
+VERSION     WP_032206286.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39532
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyiltkqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egysfrdsar favacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_039066314             362 aa            linear   BCT 27-DEC-2017
+DEFINITION  kinase [Shigella boydii].
+ACCESSION   WP_039066314
+VERSION     WP_039066314.1
+KEYWORDS    RefSeq.
+SOURCE      Shigella boydii
+  ORGANISM  Shigella boydii
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Shigella.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Shigella boydii"
+                     /db_xref="taxon:621"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39640
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikdk gyilteqeyc
+       61 vvvgtinmdi rgmadihypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltvpaht
+      301 tvdsfgaddg fmaglvysfl egnnfrdstr famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_063107312             362 aa            linear   BCT 10-APR-2016
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_063107312
+VERSION     WP_063107312.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39502
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmadirypq aashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhsqststy laianrddet vlaindthll eqlspqllng
+      181 srdllrhagv vladcnltae alewvftlag eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrna avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egnnfrdsar famacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
+
+LOCUS       WP_061360232             362 aa            linear   BCT 29-FEB-2016
+DEFINITION  kinase [Escherichia coli].
+ACCESSION   WP_061360232
+VERSION     WP_061360232.1
+KEYWORDS    RefSeq.
+SOURCE      Escherichia coli
+  ORGANISM  Escherichia coli
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacterales;
+            Enterobacteriaceae; Escherichia.
+COMMENT     REFSEQ: This record represents a single, non-redundant, protein
+            sequence which may be annotated on many different RefSeq genomes
+            from the same, or different, species.
+FEATURES             Location/Qualifiers
+     source          1..362
+                     /organism="Escherichia coli"
+                     /db_xref="taxon:562"
+     Protein         1..362
+                     /product="kinase"
+                     /calculated_mol_wt=39607
+     Region          1..362
+                     /region_name="PRK09954"
+                     /note="putative kinase; Provisional"
+                     /db_xref="CDD:182165"
+     Region          5..47
+                     /region_name="HTH_24"
+                     /note="Winged helix-turn-helix DNA-binding; pfam13412"
+                     /db_xref="CDD:290148"
+     Region          59..342
+                     /region_name="YeiC_kinase_like"
+                     /note="YeiC-like sugar kinase. Found in eukaryotes and
+                     bacteria, YeiC-like kinase is part of the ribokinase/pfkB
+                     sugar kinase superfamily. Its oligomerization state is
+                     unknown at this time; cd01941"
+                     /db_xref="CDD:238916"
+     Site            order(98,306,309)
+                     /site_type="other"
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+     Site            order(240,276,304,307..308,311,333,336)
+                     /site_type="other"
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238916"
+ORIGIN      
+        1 mnnrekeila ilrrnpliqq neiadmlqis rsrvaahimd lmrkgrikgk gyilteqeyc
+       61 vvvgtinmdi rgmvdirypq sashpgtihc saggvgrnia hnlallgrdv hllsvigddf
+      121 ygemlleetr ragvnvsgcv rlhgqststy laianrddqt vlaindthll eqltpqllng
+      181 srdllrhagv vladcnltae alewvftlad eipvfvdtvs efkagkikhw lahihtlkpt
+      241 lpeleilwgq aitsdadrnt avnalhqqgv qqlfvylpde svycsekdge qflltapaht
+      301 tvdsfgaddg fmaglvysfl egysfrdsar favacaaisr asgslnnptl sadnalslvp
+      361 mv
+//
